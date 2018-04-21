@@ -20,6 +20,7 @@
 		7E7E3F79208AA5FF00890F30 /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E3F78208AA5FF00890F30 /* TapViewController.m */; };
 		7E7E3F7C208AADC200890F30 /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E3F7B208AADC200890F30 /* PinchViewController.m */; };
 		7E7E3F7F208ABF2B00890F30 /* SlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E3F7E208ABF2B00890F30 /* SlideViewController.m */; };
+		7E7E3F82208AD79800890F30 /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E3F81208AD79800890F30 /* RotationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		7E7E3F7B208AADC200890F30 /* PinchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
 		7E7E3F7D208ABF2B00890F30 /* SlideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideViewController.h; sourceTree = "<group>"; };
 		7E7E3F7E208ABF2B00890F30 /* SlideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideViewController.m; sourceTree = "<group>"; };
+		7E7E3F80208AD79800890F30 /* RotationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
+		7E7E3F81208AD79800890F30 /* RotationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 				7E7E3F78208AA5FF00890F30 /* TapViewController.m */,
 				7E7E3F7D208ABF2B00890F30 /* SlideViewController.h */,
 				7E7E3F7E208ABF2B00890F30 /* SlideViewController.m */,
+				7E7E3F80208AD79800890F30 /* RotationViewController.h */,
+				7E7E3F81208AD79800890F30 /* RotationViewController.m */,
 				7E1B660C208971FD00934A55 /* Gestures */,
 				7E1B6625208971FD00934A55 /* GesturesTests */,
 				7E1B6630208971FD00934A55 /* GesturesUITests */,
@@ -291,6 +296,7 @@
 			files = (
 				7E7E3F76208AA5F600890F30 /* PanViewController.m in Sources */,
 				7E7E3F7C208AADC200890F30 /* PinchViewController.m in Sources */,
+				7E7E3F82208AD79800890F30 /* RotationViewController.m in Sources */,
 				7E7E3F7F208ABF2B00890F30 /* SlideViewController.m in Sources */,
 				7E7E3F79208AA5FF00890F30 /* TapViewController.m in Sources */,
 				7E1B6612208971FD00934A55 /* ViewController.m in Sources */,

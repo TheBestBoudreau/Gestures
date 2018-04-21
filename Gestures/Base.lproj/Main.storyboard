@@ -24,6 +24,7 @@
                         <segue destination="vk3-82-cBR" kind="relationship" relationship="viewControllers" id="2Kg-ZK-2ZF"/>
                         <segue destination="LkB-IO-ujW" kind="relationship" relationship="viewControllers" id="1Np-sB-666"/>
                         <segue destination="DhO-XD-MBl" kind="relationship" relationship="viewControllers" id="osz-Le-MfS"/>
+                        <segue destination="wUX-qq-atc" kind="relationship" relationship="viewControllers" id="ddV-4l-Dab"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SYx-Po-TdC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -45,6 +46,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CKd-AR-eEj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="145" y="224"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="jrb-wA-iEz">
+            <objects>
+                <viewController id="wUX-qq-atc" customClass="RotationViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AZj-Dm-cgT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Cuw-ky-goI"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="item5" id="4XW-6C-wtn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="62D-Hd-Mz7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1640" y="608"/>
         </scene>
         <!--Slider-->
         <scene sceneID="UTh-UB-bMO">
@@ -118,5 +135,6 @@
         <image name="item2" width="30" height="28"/>
         <image name="item3" width="30" height="28"/>
         <image name="item4" width="30" height="30"/>
+        <image name="item5" width="30" height="30"/>
     </resources>
 </document>
