@@ -21,6 +21,7 @@
 		7E7E3F7C208AADC200890F30 /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E3F7B208AADC200890F30 /* PinchViewController.m */; };
 		7E7E3F7F208ABF2B00890F30 /* SlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E3F7E208ABF2B00890F30 /* SlideViewController.m */; };
 		7E7E3F82208AD79800890F30 /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E3F81208AD79800890F30 /* RotationViewController.m */; };
+		7E7E4088208EBAE200890F30 /* UIScrrenEdgePan.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E4087208EBAE200890F30 /* UIScrrenEdgePan.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		7E7E3F7E208ABF2B00890F30 /* SlideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideViewController.m; sourceTree = "<group>"; };
 		7E7E3F80208AD79800890F30 /* RotationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
 		7E7E3F81208AD79800890F30 /* RotationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
+		7E7E4086208EBAE200890F30 /* UIScrrenEdgePan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIScrrenEdgePan.h; sourceTree = "<group>"; };
+		7E7E4087208EBAE200890F30 /* UIScrrenEdgePan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrrenEdgePan.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				7E7E3F78208AA5FF00890F30 /* TapViewController.m */,
 				7E7E3F7D208ABF2B00890F30 /* SlideViewController.h */,
 				7E7E3F7E208ABF2B00890F30 /* SlideViewController.m */,
+				7E7E4086208EBAE200890F30 /* UIScrrenEdgePan.h */,
+				7E7E4087208EBAE200890F30 /* UIScrrenEdgePan.m */,
 				7E7E3F80208AD79800890F30 /* RotationViewController.h */,
 				7E7E3F81208AD79800890F30 /* RotationViewController.m */,
 				7E1B660C208971FD00934A55 /* Gestures */,
@@ -294,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E7E4088208EBAE200890F30 /* UIScrrenEdgePan.m in Sources */,
 				7E7E3F76208AA5F600890F30 /* PanViewController.m in Sources */,
 				7E7E3F7C208AADC200890F30 /* PinchViewController.m in Sources */,
 				7E7E3F82208AD79800890F30 /* RotationViewController.m in Sources */,

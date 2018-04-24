@@ -13,6 +13,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="vBy-cU-x7S">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SYx-Po-TdC" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tabBarController id="h4H-rS-hl2" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8GX-GI-xbK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
@@ -25,9 +26,9 @@
                         <segue destination="LkB-IO-ujW" kind="relationship" relationship="viewControllers" id="1Np-sB-666"/>
                         <segue destination="DhO-XD-MBl" kind="relationship" relationship="viewControllers" id="osz-Le-MfS"/>
                         <segue destination="wUX-qq-atc" kind="relationship" relationship="viewControllers" id="ddV-4l-Dab"/>
+                        <segue destination="Rcf-om-2n7" kind="relationship" relationship="viewControllers" id="hZF-Fv-J8J"/>
                     </connections>
                 </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SYx-Po-TdC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-633" y="85"/>
         </scene>
@@ -94,6 +95,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iaB-Zc-gaz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="145" y="967"/>
+        </scene>
+        <!--Edge-->
+        <scene sceneID="Lu0-PK-DM7">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p6r-kM-w7x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="Rcf-om-2n7" customClass="UIScrrenEdgePan" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="11G-Em-9Le">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Osc-w0-iTT"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Edge" id="Gw6-Oa-HC6"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-906.39999999999998" y="-678.71064467766121"/>
         </scene>
         <!--Pan-->
         <scene sceneID="wu9-if-0jA">
